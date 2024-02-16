@@ -1,20 +1,30 @@
-.active {
-  color: red;
-}
-
 .inactive{
   color: white;
+  text-decoration: none;
 }
 
 nav {
-  width: 100%;
+  padding: 10px;
   display: flex;
-  justify-content: space-between;
-  background-color: rgb(107, 104, 104);
+  background-color: #806044;
 }
 
-.links {
+nav .links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+nav .links span {
+  margin-left: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.cart {
+  position: absolute; 
+  top: 17px; 
+  right: 18px; 
   display: flex;
-  gap: 20px;
   align-items: center;
 }
